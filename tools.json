@@ -3,13 +3,17 @@
     "name": "living_room_light",
     "description": "Turn the living room light on or off, or get its status.",
     "triggers": [
-      "\\b(light|lamp|lights)\\b"
+      "\\b(light|lamp|lights|licht)\\b"
     ],
-    "command": "python3 steckdose.py --device light --action {action}",
+    "command": "python3 tool_scripte/steckdose.py --device light --action {action}",
     "parameters": {
       "action": {
         "type": "Literal",
-        "enum": ["on", "off", "status"],
+        "enum": [
+          "on",
+          "off",
+          "status"
+        ],
         "description": "Switch action: 'on', 'off', or 'status'."
       }
     }
@@ -20,11 +24,15 @@
     "triggers": [
       "\\b(fan|blower|ventilator)\\b"
     ],
-    "command": "python3 steckdose.py --device fan --action {action}",
+    "command": "python3 tool_scripte/steckdose.py --device fan --action {action}",
     "parameters": {
       "action": {
         "type": "Literal",
-        "enum": ["on", "off", "status"],
+        "enum": [
+          "on",
+          "off",
+          "status"
+        ],
         "description": "Switch action: 'on', 'off', or 'status'."
       }
     }
