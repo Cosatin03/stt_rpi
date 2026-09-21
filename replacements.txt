@@ -1,0 +1,3 @@
+licht auf -> licht aus
+nicht auf -> licht aus
+macht das licht auf -> mach das licht aus
