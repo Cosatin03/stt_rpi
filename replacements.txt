@@ -1,4 +1,10 @@
-licht auf -> licht aus
-nicht auf -> licht aus
-nicht aus -> licht aus
+licht auf -> light off
+nicht auf -> light off
+nicht aus -> light off
+licht aus -> light off
+licht -> light
+lichtern -> light on
+ventilator -> fan
+aus -> off
+an -> on
 macht das licht auf -> mach das licht aus
