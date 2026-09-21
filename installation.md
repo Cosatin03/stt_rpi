@@ -1,6 +1,6 @@
 # 0. Unter Debian/Ubuntu ggf. zuerst das System-Paket installieren (falls noch nicht vorhanden):
 # sudo apt update && sudo apt install -y python3-venv libportaudio2
-
+# erstelle ein ordner stt/ und enpacke das projekt dort.
 cd stt/
 # 1. Zip-Datei herunterladen (ca. 45 MB)
 curl -LO https://alphacephei.com/vosk/models/vosk-model-small-de-0.15.zip
