@@ -1,5 +1,6 @@
-licht auf -> light off
+auf -> off
 nicht auf -> light off
+nicht auch -> light off
 nicht aus -> light off
 licht aus -> light off
 nicht on -> light on
@@ -11,3 +12,10 @@ aus -> off
 an -> on
 macht das licht auf -> mach das licht aus
 liste off -> light off
+nicht an -> light on
+wohnzimmer -> livingroom
+schlafzimmer -> bedroom
+löscht -> light
+die nato -> vent
+mich da -> lights
+büro -> office

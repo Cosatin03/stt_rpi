@@ -1,0 +1,3 @@
+{
+  "tool_description": "Switch, query or control smart-home devices, rooms, or categories. E.g. device='all lights in living room', device='living room', device='bedroom light', device='fan'."
+}

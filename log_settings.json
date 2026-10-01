@@ -1,0 +1,7 @@
+{
+  "log_level": "DEBUG",
+  "terminal_logging": false,
+  "vosk_verbose": false,
+  "log_stt_raw": true,
+  "log_wakeword_checks": false
+}

@@ -1,0 +1,33 @@
+{
+  "placements": [
+    {
+      "device_id": "fan",
+      "x": 540,
+      "y": 140
+    },
+    {
+      "device_id": "ofiice_light",
+      "x": 440,
+      "y": 140
+    }
+  ],
+  "rooms": [
+    {
+      "color": "#1e293b",
+      "h": 260,
+      "id": "room_living",
+      "name": "Wohnzimmer",
+      "w": 270,
+      "x": 50,
+      "y": 40
+    },
+    {
+      "h": 240,
+      "id": "room_1790536970843",
+      "name": "Büro",
+      "w": 270,
+      "x": 350,
+      "y": 40
+    }
+  ]
+}

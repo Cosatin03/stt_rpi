@@ -1,0 +1,41 @@
+[
+  {
+    "actions": [
+      "on",
+      "off",
+      "status"
+    ],
+    "aliases": [
+      "office light",
+      "office",
+      "office room",
+      "büro",
+      "arbeitszimmer",
+      "licht"
+    ],
+    "command": "python3 tool_scripte/tapo_steckdose.py --device 192.168.0.191 --action {action}",
+    "description": "Turn the office room light on or off, or get its status.",
+    "icon": "fa-lightbulb",
+    "id": "ofiice_light",
+    "type": "light",
+    "name": "Bürolicht"
+  },
+  {
+    "actions": [
+      "on",
+      "off",
+      "status"
+    ],
+    "aliases": [
+      "fan",
+      "ventilator",
+      "blower"
+    ],
+    "command": "python3 tool_scripte/tapo_steckdose.py --device fan --action {action}",
+    "description": "Turn the room fan on or off, or get its status.",
+    "icon": "fa-fan",
+    "id": "fan",
+    "name": "Ventilator ",
+    "type": "fan"
+  }
+]
